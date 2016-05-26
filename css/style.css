@@ -30,7 +30,10 @@ body {
 	margin-bottom: 60px;
 }
 
-.p-v-80{
-	padding-top: 80px;
-	padding-bottom: 80px;
+.p-v-150{
+	padding-top: 150px;
+}
+
+.text-white{
+  color: #fff
 }
