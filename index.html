@@ -10,7 +10,9 @@
 		<link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css">
 		<link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css">
 		<link rel="stylesheet" href="bower_components/themify-icons/themify-icons.css">
+		<link rel="stylesheet" href="bower_components/animate.css/animate.css">
 		<link href="css/style.css" rel="stylesheet">
+		<link href="css/main.css" rel="stylesheet">
 
 		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -20,56 +22,69 @@
 		<![endif]-->
 	</head>
 	<body>
-		<!-- Navigation bar section -->
-		<section>
-			<nav class="navbar navbar-fixed-top navbar-inverse">
-				<div class="container">
-					<div class="navbar-header">
-						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
-						<a class="navbar-brand" href="#">Himanshu Kesarvani</a>
-					</div>
-					<div class="collapse navbar-collapse" id="myNavbar">
-						<ul class="nav navbar-nav navbar-right">
-							<li class="active"><a href="#">Home</a></li>
-							<li><a href="#">About</a></li>
-							<li><a href="#">Portfolio</a></li>
-							<li><a href="#">Contact</a></li>
-							<li><a href="#">Gallery</a></li>
-						</ul>
-					</div>
-				</div>
-			</nav>
-		</section>
 		<!-- Home page section -->
 		<section class="home">
+			<div class="nav-menu">
+				<a href="#." class="cd-bouncy-nav-trigger">
+					<i class="ion-navicon">
+					</i>
+				</a>
+			</div>
+			<div class="cd-bouncy-nav-modal">
+		    <nav>
+		      <ul class="cd-bouncy-nav">
+		        <li><a href="index.html"><i class="ion-ios-home-outline"></i> Home </a></li>
+		        <li><a href="resume.html"><i class="ion-ios-person-outline"></i> About</a></li>
+		        <li><a href="resume.html"><i class="ion-monitor"></i> Services</a></li>
+		        <li><a href="portfolio.html"><i class="ion-images"></i> Portfolio</a></li>
+		        <li><a href="blog.html"><i class="ion-ios-copy"></i> Blog</a></li>
+		        <li><a href="contact.html"><i class="ion-paper-airplane"></i> Contact</a></li>
+		      </ul>
+		    </nav>
+		    <a href="#." class="cd-close">
+		    	<i class="ion-close-round"></i>
+		    </a>
+			</div>
 			<div class="container">
 				<div class="row">
-					<div class="col-md-6 col-xs-12">
-						<div class="profile animated bounceInUp p-v-150">
-						      <div class="profile-in">
+					<div class="col-md-8 col-xs-12">
+						<div class="profile animated bounceInUp p-v-80">
+							<div class="profile-in">
 
-						      <!-- Avatar -->
-						        <div class="text-center">
-						          <div class="avatar"> <img src="images/avatar.png" alt=""> </div>
-						        </div>
-						      </div>
-						  </div>
-					</div>
-					<div class="col-md-6 col-xs-12">
-						<div class="intro p-v-150 text-white">
-							<h1>Hi! I am Himanshu Kesarvani</h1>
+								<!-- Avatar -->
+								<div class="text-center">
+									<div class="profile-pic"> <img src="images/avatar.png" alt=""> </div>
+								</div>
+							</div>
+							<div class="intro text-center text-white">
+								<h1>Hi! I am
+									<strong>
+										Himanshu Kesarvani
+									</strong>
+								</h1>
+							</div>
+							<div class="intro text-center text-white">
+								<h1>
+									Programmer and
+									<span>
+										Front-end Developer
+									</span>
+								</h1>
+							</div>
+							<hr>
+							<p class="text-white intro-lines">
+								I am a hands-on Software Developer with 2+ years of web application design, and development experience. I have developed web based application using latest frameworks like angular, and  JQuery, JQuery - UI, D3 chats.
+							</p>
 						</div>
 					</div>
 				</div>
-			</div>
-		</section>
-		<script src="bower_components/jquery/dist/jquery.js"></script>
-		<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
-		<script src="bower_components/counter.js/js/counter.js"></script>
-		<script src="bower_components/jquery-prettyPhoto/js/jquery.prettyPhoto.js"></script>
-	</body>
-	</html>
+			</section>
+			<script src="bower_components/jquery/dist/jquery.js"></script>
+			<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+			<script src="bower_components/counter.js/js/counter.js"></script>
+			<script src="bower_components/jquery-prettyPhoto/js/jquery.prettyPhoto.js"></script>
+			<script type="text/javascript" src="javascript/script.js">
+
+			</script>
+		</body>
+		</html>

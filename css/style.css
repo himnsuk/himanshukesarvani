@@ -5,7 +5,7 @@ body {
 	font-size: 12px;
 	color: #333333;
 	font-family: 'Open Sans', sans-serif;
-	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../images/home.jpg)no-repeat;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../images/background.jpg)no-repeat;
 }
 
 .cd-bouncy-nav-modal {
@@ -30,10 +30,94 @@ body {
 	margin-bottom: 60px;
 }
 
-.p-v-150{
-	padding-top: 150px;
+.p-v-80{
+	padding-top: 80px;
 }
 
 .text-white{
   color: #fff
+}
+
+.intro span{
+  font-size: 28px;
+  font-weight: 100;
+  background: #3cba54;
+  padding: 8px 20px;
+  line-height: 54px;
+  color: #fff;
+  position: relative;
+  top: -5px;
+}
+
+.cd-bouncy-nav-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    background-color: rgba(40, 40, 40, 0.9);
+    opacity: 0;
+    -webkit-transition: opacity 0.3s 0.6s, visibility 0s 0.9s;
+    -moz-transition: opacity 0.3s 0.6s, visibility 0s 0.9s;
+    transition: opacity 0.3s 0.6s, visibility 0s 0.9s;
+}
+
+.nav-menu {
+    position: fixed;
+    right: 80px;
+    text-align: center;
+    text-transform: uppercase;
+    text-align: center;
+    top: 80px;
+    z-index: 9;
+}
+
+.nav-menu a {
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    font-size: 30px;
+    background: #fff;
+    line-height: 60px;
+    display: inline-block;
+}
+
+.cd-bouncy-nav {
+    position: absolute;
+    left: 50%;
+    top: 50vh;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    width: 90%;
+    max-width: 300px;
+}
+
+.cd-bouncy-nav a {
+    display: inline-block;
+    min-width: 80px;
+    position: relative;
+    padding: 0px 20px 0;
+    font-weight: normal;
+    margin-bottom: 30px;
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.cd-bouncy-nav-modal.fade-in {
+    visibility: visible;
+    opacity: 1;
+    -webkit-transition: opacity 0.1s 0s, visibility 0s 0s;
+    -moz-transition: opacity 0.1s 0s, visibility 0s 0s;
+    transition: opacity 0.1s 0s, visibility 0s 0s;
+}
+
+.home {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
 }
